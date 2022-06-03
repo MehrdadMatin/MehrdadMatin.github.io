@@ -1,18 +1,18 @@
 $(function () {
 
     $("#contactForm input, #contactForm textarea").jqBootstrapValidation({
-        preventSubmit: true,
+        preventSubmit: false,
         submitError: function ($form, event, errors) {
         },
         submitSuccess: function ($form, event) {
-            event.preventDefault();
+            //event.preventDefault();
             var name = $("input#name").val();
             var email = $("input#email").val();
             var subject = $("input#subject").val();
             var message = $("textarea#message").val();
 
             $this = $("#sendMessageButton");
-            $this.prop("disabled", true);
+            $this.prop("disabled", false);
 
             $.ajax({
                 url: "contact.php",
@@ -23,7 +23,7 @@ $(function () {
                     subject: subject,
                     message: message
                 },
-                cache: false,
+                cache: true,
                 success: function () {
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -55,7 +55,7 @@ $(function () {
     });
 
     $("a[data-toggle=\"tab\"]").click(function (e) {
-        e.preventDefault();
+        //e.preventDefault();
         $(this).tab("show");
     });
 });
