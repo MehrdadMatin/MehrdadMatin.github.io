@@ -1,122 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Mehrdad's Portfolio</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Mehrdad's Portfolio" name="keywords">
-    <meta content="Mehrdad's Portfolio" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Mehrdad's Portfolio" name="keywords" />
+    <meta content="Mehrdad's Portfolio" name="description" />
 
     <!-- Favicon -->
-    <link href="img/hi_bit2.jpg" rel="icon">
+    <link href="img/hi_bit2.jpg" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
     <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">Mehrdad </span>Matin panah</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About Me</a>
-                <a href="#qualification" class="nav-item nav-link">Education</a>
-                <!-- <a href="#skill" class="nav-item nav-link">Skill</a> -->
-                <!-- <a href="#service" class="nav-item nav-link">Service</a> -->
-                <a href="#portfolio" class="nav-item nav-link">Projects</a>
-                <!-- <a href="#testimonial" class="nav-item nav-link">Review</a> -->
-                <!-- <a href="#blog" class="nav-item nav-link">Blog</a> -->
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div>
-            <!-- <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a> -->
+    <nav
+      class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5"
+    >
+      <a href="index.html" class="navbar-brand ml-lg-3">
+        <h1 class="m-0 display-5">
+          <span class="text-primary">Mehrdad </span>Matin panah
+        </h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+        <div class="navbar-nav m-auto py-0">
+          <a href="#home" class="nav-item nav-link active">Home</a>
+          <a href="#about" class="nav-item nav-link">About Me</a>
+          <a href="#qualification" class="nav-item nav-link">Education</a>
+          <!-- <a href="#skill" class="nav-item nav-link">Skill</a> -->
+          <!-- <a href="#service" class="nav-item nav-link">Service</a> -->
+          <a href="#portfolio" class="nav-item nav-link">Projects</a>
+          <!-- <a href="#testimonial" class="nav-item nav-link">Review</a> -->
+          <!-- <a href="#blog" class="nav-item nav-link">Blog</a> -->
+          <a href="#contact" class="nav-item nav-link">Contact</a>
         </div>
+        <!-- <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a> -->
+      </div>
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Video Modal Start -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>        
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
-                    </div>
-                </div>
+    <div
+      class="modal fade"
+      id="videoModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src=""
+                id="video"
+                allowscriptaccess="always"
+                allow="autoplay"
+              ></iframe>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Video Modal End -->
 
-
     <!-- Header Start -->
-    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100 rounded-circle shadow-lg" src="img/hi_bit2.jpg" alt="">
-                </div>
-                <div class="col-lg-7 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
-                    <h1 class="display-5 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Mehrdad Matin panah</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">Student at University of Calgary, PC Support Analyst at Alberta Mindfulness Association, Software Developer</div>
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="https://drive.google.com/file/d/1Cq-jJf-1Gc_Cv1fDpejKSYA5WOT44Yry/view?usp=sharing" rel="nooperner noreferrer" target="_blank" class="btn btn-outline-light mr-5 align-items-center">Resume</a>
-                        <!-- try to centre the download resume button -->
-                        <!-- <button type="button" class="btn-play" data-toggle="modal"
+    <div
+      class="container-fluid bg-primary d-flex align-items-center mb-5 py-5"
+      id="home"
+      style="min-height: 100vh"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+            <img
+              class="img-fluid w-100 rounded-circle shadow-lg"
+              src="img/hi_bit2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-7 text-center text-lg-left">
+            <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+            <h1
+              class="display-5 text-uppercase text-primary mb-2"
+              style="-webkit-text-stroke: 2px #ffffff"
+            >
+              Mehrdad Matin panah
+            </h1>
+            <h1
+              class="typed-text-output d-inline font-weight-lighter text-white"
+            ></h1>
+            <div class="typed-text d-none">
+              Student at University of Calgary, PC Support Analyst at Alberta
+              Mindfulness Association, Software Developer
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5"
+            >
+              <a
+                href="https://drive.google.com/file/d/1Cq-jJf-1Gc_Cv1fDpejKSYA5WOT44Yry/view?usp=sharing"
+                rel="nooperner noreferrer"
+                target="_blank"
+                class="btn btn-outline-light mr-5 align-items-center"
+                >Resume</a
+              >
+              <!-- try to centre the download resume button -->
+              <!-- <button type="button" class="btn-play" data-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                             <span></span>
                         </button> 
                         <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5> -->
-                    </div>
-                </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Header End -->
 
-
     <!-- About Start -->
     <div class="container-fluid py-5" id="about">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
-                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/who_bit2.jpg" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <h3 class="mb-4">Who am I?</h3>
-                    <p>Hi there! My name is Mehrdad. I am currently studying Computer Science with a focus on Software Engineering at the University of Calgary!</p>
-                    <p>As a quick learner and proactive problem solver, through team projects such as my Self-checkout machine java application, I have obtained knowledge in areas such as object-oriented design and software development. Furthermore, I have experience in optimizing software through the use of algorithms and data structures.</p>
-                    <p>I am always eager to learn and work with new and exciting technologies and appreciate any opportunity where I can apply and further improve my skills.</p>
-                    <!-- <div class="row mb-3">
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            About
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            About Me
+          </h1>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-5 pb-4 pb-lg-0">
+            <img
+              class="img-fluid rounded w-100"
+              src="img/who_bit2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-7">
+            <h3 class="mb-4">Who am I?</h3>
+            <p>
+              Hi there! My name is Mehrdad. I am currently studying Computer
+              Science with a focus on Software Engineering at the University of
+              Calgary!
+            </p>
+            <p>
+              As a quick learner and proactive problem solver, through team
+              projects such as my Self-checkout machine java application, I have
+              obtained knowledge in areas such as object-oriented design and
+              software development. Furthermore, I have experience in optimizing
+              software through the use of algorithms and data structures.
+            </p>
+            <p>
+              I am always eager to learn and work with new and exciting
+              technologies and appreciate any opportunity where I can apply and
+              further improve my skills.
+            </p>
+            <!-- <div class="row mb-3">
                         <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Kate Winslet</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">1 April 1990</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Master</span></h6></div>
@@ -129,54 +211,94 @@
                     <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
                     <a href="" class="btn btn-outline-primary">Learn More</a>
                 </div> -->
-            </div>
+          </div>
         </div>
-    </div>
-    <!-- About End -->
+      </div>
+      <!-- About End -->
 
-
-    <!-- Qualification Start -->
-    <div class="container-fluid py-5" id="qualification">
+      <!-- Qualification Start -->
+      <div class="container-fluid py-5" id="qualification">
         <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Education</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Education</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">B.Sc., Computer Science Specialization in Software Engineering</h5>
-                            <p class="mb-2"><strong>University of Calgary</strong> | <small>2020 - 2023</small></p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">B.Sc., Computer Science</h5>
-                            <p class="mb-2"><strong>Mount Royal University</strong> | <small>2019 - 2020</small></p>
-                        </div>
-                    </div>
+          <div
+            class="position-relative d-flex align-items-center justify-content-center"
+          >
+            <h1
+              class="display-1 text-uppercase text-white"
+              style="-webkit-text-stroke: 1px #dee2e6"
+            >
+              Education
+            </h1>
+            <h1 class="position-absolute text-uppercase text-primary">
+              Education & Expericence
+            </h1>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <h3 class="mb-4">My Education</h3>
+              <div class="border-left border-primary pt-2 pl-4 ml-2">
+                <div class="position-relative mb-4">
+                  <i
+                    class="far fa-dot-circle text-primary position-absolute"
+                    style="top: 2px; left: -32px"
+                  ></i>
+                  <h5 class="font-weight-bold mb-1">
+                    B.Sc., Computer Science Specialization in Software
+                    Engineering
+                  </h5>
+                  <p class="mb-2">
+                    <strong>University of Calgary</strong> |
+                    <small>2020 - 2023</small>
+                  </p>
                 </div>
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Expericence</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Personal Computer Support Analyst</h5>
-                            <p class="mb-2"><strong>Alberta Mindfulness Association</strong> | <small>2022 - Present</small></p>
-                            <p>My resposibilities include providing technical support to clients, including general network administration, laptop and desktop troubleshooting, and application software support. Initial diagnosis/repair of client issues via telephone and through remote connections, as well as updating and documenting external client issues. Installing new hardware systems, software upgrades, or networking cables. Providing minor technical or operational training to clients.</p>
-                        </div>
-                    </div>
+                <div class="position-relative mb-4">
+                  <i
+                    class="far fa-dot-circle text-primary position-absolute"
+                    style="top: 2px; left: -32px"
+                  ></i>
+                  <h5 class="font-weight-bold mb-1">B.Sc., Computer Science</h5>
+                  <p class="mb-2">
+                    <strong>Mount Royal University</strong> |
+                    <small>2019 - 2020</small>
+                  </p>
                 </div>
+              </div>
             </div>
+            <div class="col-lg-6">
+              <h3 class="mb-4">My Expericence</h3>
+              <div class="border-left border-primary pt-2 pl-4 ml-2">
+                <div class="position-relative mb-4">
+                  <i
+                    class="far fa-dot-circle text-primary position-absolute"
+                    style="top: 2px; left: -32px"
+                  ></i>
+                  <h5 class="font-weight-bold mb-1">
+                    Personal Computer Support Analyst
+                  </h5>
+                  <p class="mb-2">
+                    <strong>Alberta Mindfulness Association</strong> |
+                    <small>2022 - Present</small>
+                  </p>
+                  <p>
+                    My resposibilities include providing technical support to
+                    clients, including general network administration, laptop
+                    and desktop troubleshooting, and application software
+                    support. Initial diagnosis/repair of client issues via
+                    telephone and through remote connections, as well as
+                    updating and documenting external client issues. Installing
+                    new hardware systems, software upgrades, or networking
+                    cables. Providing minor technical or operational training to
+                    clients.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <!-- Qualification End -->
+      </div>
+      <!-- Qualification End -->
 
-
-    <!-- Skill Start -->
-    <!--
+      <!-- Skill Start -->
+      <!--
     <div class="container-fluid py-5" id="skill">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
@@ -246,11 +368,10 @@
         </div>
     </div>
     -->
-    <!-- Skill End -->
+      <!-- Skill End -->
 
-
-    <!-- Services Start -->
-    <!--
+      <!-- Services Start -->
+      <!--
     <div class="container-fluid pt-5" id="service">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
@@ -310,116 +431,692 @@
         </div>
     </div>
     -->
-    <!-- Services End -->
+      <!-- Services End -->
 
-
-    <!-- Portfolio Start -->
-    <div class="container-fluid pt-5 pb-3" id="portfolio">
+      <!-- Portfolio Start -->
+      <div class="container-fluid pt-5 pb-3" id="portfolio">
         <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projects</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Projects</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-12">
-                    <div class="react-reveal project-wrapper__text" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 500ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-574842436177267-4;">
-                        <h3 class="project-wrapper__text-title">Self-Checkout System</h3>
-                        <div>
-                            <p>
-                                Generic self-checkout system application which simulates a customer user interface and an employee user interface.
-                            </p>
-                            <p class="mb-4"> Created using Java and Java Swing</p>
-                        </div>
-                        <a target="_blank" rel="noopener noreferrer" class="cta-btn--hero" href="https://drive.google.com/file/d/1gKS_h6XkCl6bNs2z2bPNwYvmGpPjghNb/view?usp=sharing">
-                            "Source Code"
-                        </a>
+          <div
+            class="position-relative d-flex align-items-center justify-content-center"
+          >
+            <h1
+              class="display-1 text-uppercase text-white"
+              style="-webkit-text-stroke: 1px #dee2e6"
+            >
+              Projects
+            </h1>
+            <h1 class="position-absolute text-uppercase text-primary">
+              My Projects
+            </h1>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div
+                class="react-reveal project-wrapper__text"
+                style="
+                  animation-fill-mode: both;
+                  animation-duration: 1000ms;
+                  animation-delay: 500ms;
+                  animation-iteration-count: 1;
+                  opacity: 1;
+                  animation-name: react-reveal-272325826572215-4;
+                "
+              >
+                <h3 class="project-wrapper__text-title">
+                  Self Checkout System
+                </h3>
+                <div>
+                  <p>
+                    Web application used to track recent activity of a
+                    celebrity’s ETH crypto wallet.
+                  </p>
+                  <p class="mb-4">Created using React.js, Covalent API</p>
                 </div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero"
+                  href="https://optimistic-hypatia-322579.netlify.app/"
+                  >See Live</a
+                ><a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/k-laz/WalletTracker"
+                  >Source Code</a
+                >
+              </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-                <div class="react-reveal project-wrapper__image" style="animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 1000ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-574842436177264-5;">
-                    <a href="https://optimistic-hypatia-322579.netlify.app/" target="_blank" aria-label="Project Link" rel="noopener noreferrer"><div style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><div data-tilt="true" class="thumbnail rounded"><div class=" gatsby-image-wrapper" style="position: relative; overflow: hidden;"><div aria-hidden="true" style="width: 100%; padding-bottom: 46.4912%;"></div><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAACE3AAAhNwEzWJ96AAAA70lEQVQoz21SS3bEIAyb++97oN6jmy676SLpBGxsNLaJC3kT3lP4y5LIg6iCmaCqBoHIFb5G3FANd/sJ53Cuhw8crTX03nHXRDua3u9lY+ZJWGvFcZSh0khVB7xAAsu427luatf91k7CtOyyXWXYFLMXVlqsJXIuaqqtRp53dcPpQqhRVUFN8CTBQU6osb7m6c6l/ED+vk4n48x/hv5xuTMvYC+MwoqMtPdxCdCY6+8n5PtjSfDNMs+srFEtYS9bqD9JSyl2WWLuvSu7PMqa4T2u+TmhX/Y4Bgldf5skXMOfYOz7hm2bmEU4+nzMJHwBODfFD5mtTmoAAAAASUVORK5CYII=" alt="" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 0; transition-delay: 500ms;"><picture><source srcset="/static/0cc12a4da21982000ce29ec5aafb923e/8080f/wallettracker.png 342w,
-                        
-
-
-
-
-                </div>
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-sm-12 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/self_check.PNG" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1gKS_h6XkCl6bNs2z2bPNwYvmGpPjghNb/view?usp=sharing" style="color: red"> Self Self-checkout </a>
-                            <a style="color: white">Generic self-checkout system designed and implemented in Java</a>                        
-                        </div>
+              <div
+                class="react-reveal project-wrapper__image"
+                style="
+                  animation-fill-mode: both;
+                  animation-duration: 1000ms;
+                  animation-delay: 1000ms;
+                  animation-iteration-count: 1;
+                  opacity: 1;
+                  animation-name: react-reveal-272325826572215-5;
+                "
+              >
+                <a
+                  href="https://optimistic-hypatia-322579.netlify.app/"
+                  target="_blank"
+                  aria-label="Project Link"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    style="
+                      transform: perspective(1000px) rotateX(0deg) rotateY(0deg)
+                        scale3d(1, 1, 1);
+                    "
+                  >
+                    <div data-tilt="true" class="thumbnail rounded">
+                      <div
+                        class="gatsby-image-wrapper"
+                        style="position: relative; overflow: hidden"
+                      >
+                        <div
+                          aria-hidden="true"
+                          style="width: 100%; padding-bottom: 46.4912%"
+                        ></div>
+                        <img
+                          aria-hidden="true"
+                          src="/img/self_check.PNG"
+                          alt=""
+                          style="
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center center;
+                            opacity: 0;
+                            transition-delay: 500ms;
+                          "
+                        />
+                        <picture>
+                          <source
+                            srcset="
+                              /img/self_check.PNG  342w,
+                              /img/self_check.PNG  683w,
+                              /img/self_check.PNG 1366w,
+                              /img/self_check.PNG 2049w,
+                              /img/self_check.PNG 2565w
+                            "
+                            sizes="(max-width: 1366px) 100vw, 1366px"
+                          />
+                          <img
+                            sizes="(max-width: 1366px) 100vw, 1366px"
+                            srcset="
+                              /img/self_check.PNG  342w,
+                              /img/self_check.PNG  683w,
+                              /img/self_check.PNG 1366w,
+                              /img/self_check.PNG 2049w,
+                              /img/self_check.PNG 2565w
+                            "
+                            src="/img/self_check.PNG"
+                            alt="WalletTracker"
+                            loading="lazy"
+                            style="
+                              position: absolute;
+                              top: 0px;
+                              left: 0px;
+                              width: 100%;
+                              height: 100%;
+                              object-fit: cover;
+                              object-position: center center;
+                              opacity: 1;
+                              transition: opacity 500ms ease 0s;
+                            "
+                          /> </picture
+                        ><noscript>
+                          <picture>
+                            <source
+                              srcset="
+                                /img/self_check.PNG  342w,
+                                /img/self_check.PNG  683w,
+                                /img/self_check.PNG 1366w,
+                                /img/self_check.PNG 2049w,
+                                /img/self_check.PNG 2565w
+                              "
+                              sizes="(max-width: 1366px) 100vw, 1366px"
+                            />
+                            <img
+                              loading="lazy"
+                              sizes="(max-width: 1366px) 100vw, 1366px"
+                              srcset="
+                                /img/self_check.PNG  342w,
+                                /img/self_check.PNG  683w,
+                                /img/self_check.PNG 1366w,
+                                /img/self_check.PNG 2049w,
+                                /img/self_check.PNG 2565w
+                              "
+                              src="/img/self_check.PNG"
+                              alt="WalletTracker"
+                              style="
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                opacity: 1;
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                object-position: center;
+                              "
+                            />
+                          </picture>
+                        </noscript>
+                      </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-12 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100 h-100" src="img/benchdate.PNG" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-12 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/eyespy.PNG"">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-12 mb-4 portfolio-item fourth">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/449_a1.PNG" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                  </div>
+                </a>
+              </div>
             </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div
+                class="react-reveal project-wrapper__text"
+                style="
+                  animation-fill-mode: both;
+                  animation-duration: 1000ms;
+                  animation-delay: 500ms;
+                  animation-iteration-count: 1;
+                  opacity: 1;
+                  animation-name: react-reveal-272325826572215-4;
+                "
+              >
+                <h3 class="project-wrapper__text-title">Bench Date</h3>
+                <div>
+                  <p>
+                    Web application used to track recent activity of a
+                    celebrity’s ETH crypto wallet.
+                  </p>
+                  <p class="mb-4">Created using React.js, Covalent API</p>
+                </div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero"
+                  href="https://optimistic-hypatia-322579.netlify.app/"
+                  >See Live</a
+                ><a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/k-laz/WalletTracker"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div
+                class="react-reveal project-wrapper__image"
+                style="
+                  animation-fill-mode: both;
+                  animation-duration: 1000ms;
+                  animation-delay: 1000ms;
+                  animation-iteration-count: 1;
+                  opacity: 1;
+                  animation-name: react-reveal-272325826572215-5;
+                "
+              >
+                <a
+                  href="https://optimistic-hypatia-322579.netlify.app/"
+                  target="_blank"
+                  aria-label="Project Link"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    style="
+                      transform: perspective(1000px) rotateX(0deg) rotateY(0deg)
+                        scale3d(1, 1, 1);
+                    "
+                  >
+                    <div data-tilt="true" class="thumbnail rounded">
+                      <div
+                        class="gatsby-image-wrapper"
+                        style="position: relative; overflow: hidden"
+                      >
+                        <div
+                          aria-hidden="true"
+                          style="width: 100%; padding-bottom: 46.4912%"
+                        ></div>
+                        <img
+                          aria-hidden="true"
+                          src="/img/benchdate.PNG"
+                          alt=""
+                          style="
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center center;
+                            opacity: 0;
+                            transition-delay: 500ms;
+                          "
+                        />
+                        <picture>
+                          <source
+                            srcset="
+                              /img/benchdate.PNG  342w,
+                              /img/benchdate.PNG  683w,
+                              /img/benchdate.PNG 1366w,
+                              /img/benchdate.PNG 2049w,
+                              /img/benchdate.PNG 2565w
+                            "
+                            sizes="(max-width: 1366px) 100vw, 1366px"
+                          />
+                          <img
+                            sizes="(max-width: 1366px) 100vw, 1366px"
+                            srcset="
+                              /img/benchdate.PNG  342w,
+                              /img/benchdate.PNG  683w,
+                              /img/benchdate.PNG 1366w,
+                              /img/benchdate.PNG 2049w,
+                              /img/benchdate.PNG 2565w
+                            "
+                            src="/img/benchdate.PNG"
+                            alt="WalletTracker"
+                            loading="lazy"
+                            style="
+                              position: absolute;
+                              top: 0px;
+                              left: 0px;
+                              width: 100%;
+                              height: 100%;
+                              object-fit: cover;
+                              object-position: center center;
+                              opacity: 1;
+                              transition: opacity 500ms ease 0s;
+                            "
+                          /> </picture
+                        ><noscript>
+                          <picture>
+                            <source
+                              srcset="
+                                /img/benchdate.PNG  342w,
+                                /img/benchdate.PNG  683w,
+                                /img/benchdate.PNG 1366w,
+                                /img/benchdate.PNG 2049w,
+                                /img/benchdate.PNG 2565w
+                              "
+                              sizes="(max-width: 1366px) 100vw, 1366px"
+                            />
+                            <img
+                              loading="lazy"
+                              sizes="(max-width: 1366px) 100vw, 1366px"
+                              srcset="
+                                /img/benchdate.PNG  342w,
+                                /img/benchdate.PNG  683w,
+                                /img/benchdate.PNG 1366w,
+                                /img/benchdate.PNG 2049w,
+                                /img/benchdate.PNG 2565w
+                              "
+                              src="/img/benchdate.PNG"
+                              alt="WalletTracker"
+                              style="
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                opacity: 1;
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                object-position: center;
+                              "
+                            />
+                          </picture>
+                        </noscript>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div
+                class="react-reveal project-wrapper__text"
+                style="
+                  animation-fill-mode: both;
+                  animation-duration: 1000ms;
+                  animation-delay: 500ms;
+                  animation-iteration-count: 1;
+                  opacity: 1;
+                  animation-name: react-reveal-272325826572215-4;
+                "
+              >
+                <h3 class="project-wrapper__text-title">Eye Spy</h3>
+                <div>
+                  <p>
+                    Web application used to track recent activity of a
+                    celebrity’s ETH crypto wallet.
+                  </p>
+                  <p class="mb-4">Created using React.js, Covalent API</p>
+                </div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero"
+                  href="https://optimistic-hypatia-322579.netlify.app/"
+                  >See Live</a
+                ><a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/k-laz/WalletTracker"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div
+                class="react-reveal project-wrapper__image"
+                style="
+                  animation-fill-mode: both;
+                  animation-duration: 1000ms;
+                  animation-delay: 1000ms;
+                  animation-iteration-count: 1;
+                  opacity: 1;
+                  animation-name: react-reveal-272325826572215-5;
+                "
+              >
+                <a
+                  href="https://optimistic-hypatia-322579.netlify.app/"
+                  target="_blank"
+                  aria-label="Project Link"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    style="
+                      transform: perspective(1000px) rotateX(0deg) rotateY(0deg)
+                        scale3d(1, 1, 1);
+                    "
+                  >
+                    <div data-tilt="true" class="thumbnail rounded">
+                      <div
+                        class="gatsby-image-wrapper"
+                        style="position: relative; overflow: hidden"
+                      >
+                        <div
+                          aria-hidden="true"
+                          style="width: 100%; padding-bottom: 46.4912%"
+                        ></div>
+                        <img
+                          aria-hidden="true"
+                          src="/img/eyespy.PNG"
+                          alt=""
+                          style="
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center center;
+                            opacity: 0;
+                            transition-delay: 500ms;
+                          "
+                        />
+                        <picture>
+                          <source
+                            srcset="
+                              /img/eyespy.PNG  342w,
+                              /img/eyespy.PNG  683w,
+                              /img/eyespy.PNG 1366w,
+                              /img/eyespy.PNG 2049w,
+                              /img/eyespy.PNG 2565w
+                            "
+                            sizes="(max-width: 1366px) 100vw, 1366px"
+                          />
+                          <img
+                            sizes="(max-width: 1366px) 100vw, 1366px"
+                            srcset="
+                              /img/eyespy.PNG  342w,
+                              /img/eyespy.PNG  683w,
+                              /img/eyespy.PNG 1366w,
+                              /img/eyespy.PNG 2049w,
+                              /img/eyespy.PNG 2565w
+                            "
+                            src="/img/eyespy.PNG"
+                            alt="WalletTracker"
+                            loading="lazy"
+                            style="
+                              position: absolute;
+                              top: 0px;
+                              left: 0px;
+                              width: 100%;
+                              height: 100%;
+                              object-fit: cover;
+                              object-position: center center;
+                              opacity: 1;
+                              transition: opacity 500ms ease 0s;
+                            "
+                          /> </picture
+                        ><noscript>
+                          <picture>
+                            <source
+                              srcset="
+                                /img/eyespy.PNG  342w,
+                                /img/eyespy.PNG  683w,
+                                /img/eyespy.PNG 1366w,
+                                /img/eyespy.PNG 2049w,
+                                /img/eyespy.PNG 2565w
+                              "
+                              sizes="(max-width: 1366px) 100vw, 1366px"
+                            />
+                            <img
+                              loading="lazy"
+                              sizes="(max-width: 1366px) 100vw, 1366px"
+                              srcset="
+                                /img/eyespy.PNG  342w,
+                                /img/eyespy.PNG  683w,
+                                /img/eyespy.PNG 1366w,
+                                /img/eyespy.PNG 2049w,
+                                /img/eyespy.PNG 2565w
+                              "
+                              src="/img/eyespy.PNG"
+                              alt="WalletTracker"
+                              style="
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                opacity: 1;
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                object-position: center;
+                              "
+                            />
+                          </picture>
+                        </noscript>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div
+                class="react-reveal project-wrapper__text"
+                style="
+                  animation-fill-mode: both;
+                  animation-duration: 1000ms;
+                  animation-delay: 500ms;
+                  animation-iteration-count: 1;
+                  opacity: 1;
+                  animation-name: react-reveal-272325826572215-4;
+                "
+              >
+                <h3 class="project-wrapper__text-title">
+                  Branch and Bound Algorithm
+                </h3>
+                <div>
+                  <p>
+                    Web application used to track recent activity of a
+                    celebrity’s ETH crypto wallet.
+                  </p>
+                  <p class="mb-4">Created using React.js, Covalent API</p>
+                </div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero"
+                  href="https://optimistic-hypatia-322579.netlify.app/"
+                  >See Live</a
+                ><a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/k-laz/WalletTracker"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div
+                class="react-reveal project-wrapper__image"
+                style="
+                  animation-fill-mode: both;
+                  animation-duration: 1000ms;
+                  animation-delay: 1000ms;
+                  animation-iteration-count: 1;
+                  opacity: 1;
+                  animation-name: react-reveal-272325826572215-5;
+                "
+              >
+                <a
+                  href="https://optimistic-hypatia-322579.netlify.app/"
+                  target="_blank"
+                  aria-label="Project Link"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    style="
+                      transform: perspective(1000px) rotateX(0deg) rotateY(0deg)
+                        scale3d(1, 1, 1);
+                    "
+                  >
+                    <div data-tilt="true" class="thumbnail rounded">
+                      <div
+                        class="gatsby-image-wrapper"
+                        style="position: relative; overflow: hidden"
+                      >
+                        <div
+                          aria-hidden="true"
+                          style="width: 100%; padding-bottom: 46.4912%"
+                        ></div>
+                        <img
+                          aria-hidden="true"
+                          src="/img/449_a1.PNG"
+                          alt=""
+                          style="
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            object-position: center center;
+                            opacity: 0;
+                            transition-delay: 500ms;
+                          "
+                        />
+                        <picture>
+                          <source
+                            srcset="
+                              /img/449_a1.PNG  342w,
+                              /img/449_a1.PNG  683w,
+                              /img/449_a1.PNG 1366w,
+                              /img/449_a1.PNG 2049w,
+                              /img/449_a1.PNG 2565w
+                            "
+                            sizes="(max-width: 1366px) 100vw, 1366px"
+                          />
+                          <img
+                            sizes="(max-width: 1366px) 100vw, 1366px"
+                            srcset="
+                              /img/449_a1.PNG  342w,
+                              /img/449_a1.PNG  683w,
+                              /img/449_a1.PNG 1366w,
+                              /img/449_a1.PNG 2049w,
+                              /img/449_a1.PNG 2565w
+                            "
+                            src="/img/449_a1.PNG"
+                            alt="WalletTracker"
+                            loading="lazy"
+                            style="
+                              position: absolute;
+                              top: 0px;
+                              left: 0px;
+                              width: 100%;
+                              height: 100%;
+                              object-fit: cover;
+                              object-position: center center;
+                              opacity: 1;
+                              transition: opacity 500ms ease 0s;
+                            "
+                          /> </picture
+                        ><noscript>
+                          <picture>
+                            <source
+                              srcset="
+                                /img/449_a1.PNG  342w,
+                                /img/449_a1.PNG  683w,
+                                /img/449_a1.PNG 1366w,
+                                /img/449_a1.PNG 2049w,
+                                /img/449_a1.PNG 2565w
+                              "
+                              sizes="(max-width: 1366px) 100vw, 1366px"
+                            />
+                            <img
+                              loading="lazy"
+                              sizes="(max-width: 1366px) 100vw, 1366px"
+                              srcset="
+                                /img/449_a1.PNG      342w,
+                                /img/449_a1.PNG      683w,
+                                /img/449_a1.PNG     1366w,
+                                /img/449_a1.PNG     2049w,
+                                /img/self_check.PNG 2565w
+                              "
+                              src="/img/self_check.PNG"
+                              alt="WalletTracker"
+                              style="
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                opacity: 1;
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                object-position: center;
+                              "
+                            />
+                          </picture>
+                        </noscript>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Portfolio End -->
-
 
     <!-- Testimonial Start -->
     <!-- 
@@ -460,7 +1157,6 @@
     </div>
     -->
     <!-- Testimonial End -->
-
 
     <!-- Blog Start -->
     <!--
@@ -510,19 +1206,26 @@
     -->
     <!-- Blog End -->
 
-
-
     <!-- Contact Start -->
     <div class="container-fluid py-5" id="contact">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <!--
+      <div class="container">
+        <div
+          class="position-relative d-flex align-items-center justify-content-center"
+        >
+          <h1
+            class="display-1 text-uppercase text-white"
+            style="-webkit-text-stroke: 1px #dee2e6"
+          >
+            Contact
+          </h1>
+          <h1 class="position-absolute text-uppercase text-primary">
+            Contact Me
+          </h1>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <!--
                     <div class="contact-form text-center">
                         <div id="success"></div>
                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
@@ -557,28 +1260,60 @@
                         </form>
                     </div>
                 -->
-                    <div class="contact-form text-center">
-                        <p>Would you like to work with me? Great! Send me over a message, and let's chat.</p>
-                        <a target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" type="submit" id="sendMessageButton" href="mailto: mehrdad.mpanah@gmail.com">Contact Me </a> 
-                        <!--<a target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--resume" href="mailto: mehrdad.mpanah@gmail.com">Contact Me</a>-->
-                    </div>
-                </div>
+            <div class="contact-form text-center">
+              <p>
+                Would you like to work with me? Great! Send me over a message,
+                and let's chat.
+              </p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline-primary"
+                type="submit"
+                id="sendMessageButton"
+                href="mailto: mehrdad.mpanah@gmail.com"
+                >Contact Me
+              </a>
+              <!--<a target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--resume" href="mailto: mehrdad.mpanah@gmail.com">Contact Me</a>-->
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Contact End -->
 
-
     <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-dark btn-social mr-2" href="https://www.linkedin.com/in/mehrdad-matinpanah/" rel="noopener noreferrer" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-dark btn-social mr-2" href="https://github.com/MehrdadMatin" rel="nooperner noreferrer" target="_blank" aria-label="github"><i class="fab fa-github"></i></a>
-                <a class="btn btn-dark btn-social mr-2" href="mailto: mehrdad.mpanah@gmail.com" rel="nooperner noreferrer" target="_blank" aria-label="email"><i class="fa fa-envelope"></i></a>
-
-            </div>
-            <!--
+    <div
+      class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5"
+    >
+      <div class="container text-center py-5">
+        <div class="d-flex justify-content-center mb-4">
+          <a
+            class="btn btn-dark btn-social mr-2"
+            href="https://www.linkedin.com/in/mehrdad-matinpanah/"
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-label="linkedin"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mr-2"
+            href="https://github.com/MehrdadMatin"
+            rel="nooperner noreferrer"
+            target="_blank"
+            aria-label="github"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="btn btn-dark btn-social mr-2"
+            href="mailto: mehrdad.mpanah@gmail.com"
+            rel="nooperner noreferrer"
+            target="_blank"
+            aria-label="email"
+            ><i class="fa fa-envelope"></i
+          ></a>
+        </div>
+        <!--
             <div class="d-flex justify-content-center mb-3">
                 <a class="text-white" href="#">Privacy</a>
                 <span class="px-3">|</span>
@@ -589,9 +1324,17 @@
                 <a class="text-white" href="#">Help</a>
             </div>
             -->
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">2022 - Mehrdad Matin panah</a> All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
-            </p>
-        </div>
+        <p class="m-0">
+          &copy;
+          <a class="text-white font-weight-bold" href="#"
+            >2022 - Mehrdad Matin panah</a
+          >
+          All Rights Reserved. Designed by
+          <a class="text-white font-weight-bold" href="https://htmlcodex.com"
+            >HTML Codex</a
+          >
+        </p>
+      </div>
     </div>
     <!-- Footer End -->
 
@@ -599,8 +1342,9 @@
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -618,6 +1362,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
